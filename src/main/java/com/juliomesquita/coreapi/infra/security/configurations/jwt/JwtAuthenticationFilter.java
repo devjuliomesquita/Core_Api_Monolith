@@ -1,4 +1,4 @@
-package com.juliomesquita.coreapi.infra.security.jwt;
+package com.juliomesquita.coreapi.infra.security.configurations.jwt;
 
 import com.juliomesquita.coreapi.infra.security.persistence.TokenRepository;
 import jakarta.servlet.FilterChain;

@@ -1,4 +1,4 @@
-package com.juliomesquita.coreapi.infra.security.application;
+package com.juliomesquita.coreapi.infra.security.configurations.application;
 
 import com.juliomesquita.coreapi.infra.security.persistence.UserRepository;
 import lombok.RequiredArgsConstructor;

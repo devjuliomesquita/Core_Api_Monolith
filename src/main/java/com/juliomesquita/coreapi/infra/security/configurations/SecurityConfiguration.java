@@ -1,7 +1,7 @@
-package com.juliomesquita.coreapi.infra.security;
+package com.juliomesquita.coreapi.infra.security.configurations;
 
-import com.juliomesquita.coreapi.infra.security.cors.CorsConfiguration;
-import com.juliomesquita.coreapi.infra.security.jwt.JwtAuthenticationFilter;
+import com.juliomesquita.coreapi.infra.security.configurations.cors.CorsConfiguration;
+import com.juliomesquita.coreapi.infra.security.configurations.jwt.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

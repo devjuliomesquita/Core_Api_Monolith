@@ -1,4 +1,4 @@
-package com.juliomesquita.coreapi.infra.security.jwt;
+package com.juliomesquita.coreapi.infra.security.configurations.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -64,6 +64,13 @@ public class JwtService {
             UserDetails userDetails
     ) {
         return this.buildToken(new HashMap<>(), userDetails, REFRESH_EXPIRATION);
+    }
+
+    public String generateRefreshToken(
+            Map<String, Object> extraClaims,
+            UserDetails userDetails
+    ) {
+        return this.buildToken(extraClaims, userDetails, REFRESH_EXPIRATION);
     }
 
 

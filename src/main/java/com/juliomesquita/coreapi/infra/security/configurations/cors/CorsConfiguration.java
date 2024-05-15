@@ -1,4 +1,4 @@
-package com.juliomesquita.coreapi.infra.security.cors;
+package com.juliomesquita.coreapi.infra.security.configurations.cors;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
