@@ -2,8 +2,8 @@ package com.juliomesquita.coreapi.infra.controllers;
 
 import com.juliomesquita.coreapi.domain.interfaces.controllers.AuthenticationControllerDoc;
 import com.juliomesquita.coreapi.domain.interfaces.services.AuthenticationService;
-import com.juliomesquita.coreapi.infra.requests.AuthenticationRequest;
-import com.juliomesquita.coreapi.infra.requests.RegisterRequest;
+import com.juliomesquita.coreapi.infra.requests.authentication.AuthenticationRequest;
+import com.juliomesquita.coreapi.infra.requests.authentication.RegisterRequest;
 import com.juliomesquita.coreapi.infra.responses.AuthenticationResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
