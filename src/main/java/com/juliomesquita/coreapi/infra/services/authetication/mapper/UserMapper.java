@@ -1,7 +1,7 @@
 package com.juliomesquita.coreapi.infra.services.authetication.mapper;
 
 import com.juliomesquita.coreapi.domain.entities.User;
-import com.juliomesquita.coreapi.infra.responses.UserResponse;
+import com.juliomesquita.coreapi.infra.responses.user.UserResponse;
 import com.juliomesquita.coreapi.infra.responses.user.UserWithoutRole;
 
 public class UserMapper {

@@ -13,15 +13,15 @@ import java.io.IOException;
 
 public interface AuthenticationControllerDoc {
 
-    @PostMapping(value = "/register", consumes = "application.json")
+    @PostMapping(value = "/register", consumes = "application/json")
     ResponseEntity<AuthenticationResponse> register(@RequestBody RegisterRequest request);
 
-    @PostMapping(value = "/register", consumes = "application.json")
+    @PostMapping(value = "/login", consumes = "application/json")
     ResponseEntity<AuthenticationResponse> login(@RequestBody AuthenticationRequest request);
 
-    @PostMapping(value = "/refresh-token", consumes = "application.json")
+    @PostMapping(value = "/refresh-token", consumes = "application/json")
     ResponseEntity<Void> refreshToken(HttpServletRequest request, HttpServletResponse response) throws IOException;
 
-    @PostMapping(value = "/logout", consumes = "application.json")
+    @PostMapping(value = "/logout", consumes = "application/json")
     ResponseEntity<Void> logout();
 }

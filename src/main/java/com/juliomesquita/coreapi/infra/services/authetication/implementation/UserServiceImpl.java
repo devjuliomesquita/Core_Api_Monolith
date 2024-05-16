@@ -6,7 +6,7 @@ import com.juliomesquita.coreapi.domain.interfaces.persistence.RoleRepository;
 import com.juliomesquita.coreapi.domain.interfaces.persistence.UserRepository;
 import com.juliomesquita.coreapi.domain.interfaces.services.UserService;
 import com.juliomesquita.coreapi.infra.requests.user.LinkUserToRoleRequest;
-import com.juliomesquita.coreapi.infra.responses.UserResponse;
+import com.juliomesquita.coreapi.infra.responses.user.UserResponse;
 import com.juliomesquita.coreapi.infra.services.authetication.mapper.UserMapper;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;

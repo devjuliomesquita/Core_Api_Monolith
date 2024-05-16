@@ -56,7 +56,7 @@ public class RoleServiceImpl implements RoleService {
     @Transactional
     @Override
     public Page<RoleResponse> findAll(PageableRequest pageableRequest) {
-        Page<Role> rolePage = this.roleRepository.findByNomeContainingIgnoreCase(
+        Page<Role> rolePage = this.roleRepository.findByNameContainingIgnoreCase(
                 pageableRequest.word(),
                 this.createPageRequest(pageableRequest)
         );
